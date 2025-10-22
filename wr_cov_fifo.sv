@@ -1,4 +1,4 @@
-class cov_fifo;
+class wr_cov_fifo;
   task run();
     $display("COV");
   endtask  

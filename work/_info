@@ -1,0 +1,157 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/User/Desktop/VLSI/Projects/Asyn_FIFO_using_SV
+T_opt
+!s110 1761143820
+VdkWdoKQVATajBfhi<K<X>0
+04 8 4 work top_fifo fast 0
+=1-588a5a0bc925-68f8ec0c-291-5dc
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vfifo
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z3 DXx4 work 13 list_svh_unit 0 22 Xz6=fz>Wjn4F@C5OaKP4b2
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 <HiD;2B2S7`gU]cbZPUdL0
+IA>`5T4MgYA]1eJERV9f0J2
+Z5 !s105 list_svh_unit
+S1
+R0
+w1758219671
+8FIFO.sv
+Z6 FFIFO.sv
+L0 1
+Z7 OL;L;10.7c;67
+31
+Z8 !s108 1761143818.000000
+Z9 !s107 top_fifo.sv|env_fifo.sv|rd_age_fifo.sv|wr_age_fifo.sv|rd_gen_fifo.sv|wr_gen_fifo.sv|rd_bfm_fifo.sv|wr_bfm_fifo.sv|rd_mon_fifo.sv|wr_mon_fifo.sv|rd_cov_fifo.sv|wr_cov_fifo.sv|sbd_fifo.sv|rd_txn_fifo.sv|wr_txn_fifo.sv|int_fifo.sv|FIFO.sv|com_fifo.sv|list.svh|
+Z10 !s90 -reportprogress|300|list.svh|
+!i113 0
+Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Yinterface_fifo
+R2
+R3
+R4
+r1
+!s85 0
+!i10b 1
+!s100 ^<3dZPg]R9iU6O6JN68?13
+Ij?ge4^RbIXUW0i0^m7a9k3
+R5
+S1
+R0
+w1758219964
+8int_fifo.sv
+Z12 Fint_fifo.sv
+L0 1
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+Xlist_svh_unit
+!s115 interface_fifo
+R2
+VXz6=fz>Wjn4F@C5OaKP4b2
+r1
+!s85 0
+!i10b 1
+!s100 BSB`TK6LSZn8Y?Z9ZWYQQ1
+IXz6=fz>Wjn4F@C5OaKP4b2
+!i103 1
+S1
+R0
+Z13 w1761143812
+8list.svh
+Flist.svh
+Fcom_fifo.sv
+R6
+R12
+Fwr_txn_fifo.sv
+Frd_txn_fifo.sv
+Fsbd_fifo.sv
+Fwr_cov_fifo.sv
+Frd_cov_fifo.sv
+Fwr_mon_fifo.sv
+Frd_mon_fifo.sv
+Fwr_bfm_fifo.sv
+Frd_bfm_fifo.sv
+Fwr_gen_fifo.sv
+Frd_gen_fifo.sv
+Fwr_age_fifo.sv
+Frd_age_fifo.sv
+Fenv_fifo.sv
+Z14 Ftop_fifo.sv
+L0 5
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vtop
+R2
+DXx4 work 13 list_svh_unit 0 22 <jVQKJd6XDSV>:`Ade[?c2
+R4
+r1
+!s85 0
+!i10b 1
+!s100 ]NoeCD6CE@<NPBW1eZWBX2
+I;CbMBFlz3T?865GZ[JzTL3
+R5
+S1
+R0
+w1761141685
+Z15 8top_fifo.sv
+R14
+L0 1
+R7
+31
+!s108 1761141743.000000
+R9
+R10
+!i113 0
+R11
+R1
+vtop_fifo
+R2
+R3
+R4
+r1
+!s85 0
+!i10b 1
+!s100 o;>Ch:]YTo9K@`mXX3AOY3
+I`99=9<?^XYD:5:Mab54Az1
+R5
+S1
+R0
+R13
+R15
+R14
+L0 1
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

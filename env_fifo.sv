@@ -6,8 +6,6 @@ class env_fifo;
   wr_bfm_fifo wr_bfm;
   rd_bfm_fifo rd_bfm;
 
-  mon_fifo mon;
-  cov_fifo cov;
   sbd_fifo sbd; 
 
   task run();
@@ -17,18 +15,15 @@ class env_fifo;
     wr_age = new();  
     rd_age = new();
 
-    mon = new();
-    cov = new();
     sbd = new();
 
     fork
       wr_age.run();
       rd_age.run();
 
-      mon.run();
-      cov.run();
       sbd.run();
     join
 
-  endtask  
+  endtask
+
 endclass

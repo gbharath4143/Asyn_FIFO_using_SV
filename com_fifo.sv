@@ -5,8 +5,11 @@
 class com_fifo;
   
   static mailbox gen2bfm =new(); 
-  static mailbox mon2cov =new(); 
-  static mailbox mon2sbd =new();
+  
+  static mailbox wr_mon2cov =new(); 
+  static mailbox rd_mon2cov =new(); 
+  static mailbox wr_mon2sbd =new();
+  static mailbox rd_mon2sbd =new();
   
   static semaphore sem=new(1);
   static semaphore end_sem=new(1);

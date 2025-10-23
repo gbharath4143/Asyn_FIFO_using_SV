@@ -1,0 +1,25 @@
+$date
+	Thu Oct 23 13:38:36 2025
+$end
+$version
+	QuestaSim Version 10.7c
+$end
+$timescale
+	1ns
+$end
+
+$scope module top_fifo $end
+
+$scope module dut $end
+$upscope $end
+$upscope $end
+
+$scope begin list_svh_unit $end
+$upscope $end
+
+$scope begin std $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+$end

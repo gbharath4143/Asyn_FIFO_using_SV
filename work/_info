@@ -9,80 +9,90 @@ z2
 cModel Technology
 Z0 dC:/Users/User/Desktop/VLSI/Projects/Asyn_FIFO_using_SV
 T_opt
-!s110 1761143820
-VdkWdoKQVATajBfhi<K<X>0
-04 8 4 work top_fifo fast 0
-=1-588a5a0bc925-68f8ec0c-291-5dc
-o-quiet -auto_acc_if_foreign -work work
-Z1 tCvgOpt 0
+!s110 1761155514
+VE7LFV[Sk>aEU0>9EDTeb90
+Z1 04 8 4 work top_fifo fast 0
+=1-588a5a0bc925-68f919ba-2c8-2994
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
 n@_opt
-OL;O;10.7c;67
+Z4 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1761206905
+VUmDHV`cD`j;:X^a6K24RB0
+R1
+=1-588a5a0bc925-68f9e279-1cb-3454
+R2
+R3
+n@_opt1
+R4
 vfifo
-Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
-Z3 DXx4 work 13 list_svh_unit 0 22 Xz6=fz>Wjn4F@C5OaKP4b2
-Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z6 DXx4 work 13 list_svh_unit 0 22 :jS>VHdRGzS4KiIU6`XjX2
+Z7 VDg1SIo80bB@j0V0VzS_@n1
 r1
 !s85 0
 !i10b 1
 !s100 <HiD;2B2S7`gU]cbZPUdL0
 IA>`5T4MgYA]1eJERV9f0J2
-Z5 !s105 list_svh_unit
+Z8 !s105 list_svh_unit
 S1
 R0
 w1758219671
 8FIFO.sv
-Z6 FFIFO.sv
+Z9 FFIFO.sv
 L0 1
-Z7 OL;L;10.7c;67
+Z10 OL;L;10.7c;67
 31
-Z8 !s108 1761143818.000000
-Z9 !s107 top_fifo.sv|env_fifo.sv|rd_age_fifo.sv|wr_age_fifo.sv|rd_gen_fifo.sv|wr_gen_fifo.sv|rd_bfm_fifo.sv|wr_bfm_fifo.sv|rd_mon_fifo.sv|wr_mon_fifo.sv|rd_cov_fifo.sv|wr_cov_fifo.sv|sbd_fifo.sv|rd_txn_fifo.sv|wr_txn_fifo.sv|int_fifo.sv|FIFO.sv|com_fifo.sv|list.svh|
-Z10 !s90 -reportprogress|300|list.svh|
+Z11 !s108 1761206904.000000
+Z12 !s107 top_fifo.sv|env_fifo.sv|rd_age_fifo.sv|wr_age_fifo.sv|rd_gen_fifo.sv|wr_gen_fifo.sv|rd_bfm_fifo.sv|wr_bfm_fifo.sv|rd_mon_fifo.sv|wr_mon_fifo.sv|rd_cov_fifo.sv|wr_cov_fifo.sv|sbd_fifo.sv|rd_txn_fifo.sv|wr_txn_fifo.sv|int_fifo.sv|FIFO.sv|com_fifo.sv|list.svh|
+Z13 !s90 -reportprogress|300|list.svh|
 !i113 0
-Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R1
-Yinterface_fifo
-R2
+Z14 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R3
-R4
+Yinterface_fifo
+R5
+R6
+R7
 r1
 !s85 0
 !i10b 1
 !s100 ^<3dZPg]R9iU6O6JN68?13
 Ij?ge4^RbIXUW0i0^m7a9k3
-R5
+R8
 S1
 R0
 w1758219964
 8int_fifo.sv
-Z12 Fint_fifo.sv
+Z15 Fint_fifo.sv
 L0 1
-R7
-31
-R8
-R9
 R10
-!i113 0
+31
 R11
-R1
+R12
+R13
+!i113 0
+R14
+R3
 Xlist_svh_unit
 !s115 interface_fifo
-R2
-VXz6=fz>Wjn4F@C5OaKP4b2
+R5
+V:jS>VHdRGzS4KiIU6`XjX2
 r1
 !s85 0
 !i10b 1
-!s100 BSB`TK6LSZn8Y?Z9ZWYQQ1
-IXz6=fz>Wjn4F@C5OaKP4b2
+!s100 KC6SRlJfRJ^oO`VIj_0e=1
+I:jS>VHdRGzS4KiIU6`XjX2
 !i103 1
 S1
 R0
-Z13 w1761143812
+Z16 w1761206681
 8list.svh
 Flist.svh
 Fcom_fifo.sv
-R6
-R12
+R9
+R15
 Fwr_txn_fifo.sv
 Frd_txn_fifo.sv
 Fsbd_fifo.sv
@@ -97,61 +107,61 @@ Frd_gen_fifo.sv
 Fwr_age_fifo.sv
 Frd_age_fifo.sv
 Fenv_fifo.sv
-Z14 Ftop_fifo.sv
+Z17 Ftop_fifo.sv
 L0 5
-R7
-31
-R8
-R9
 R10
-!i113 0
+31
 R11
-R1
+R12
+R13
+!i113 0
+R14
+R3
 vtop
-R2
+R5
 DXx4 work 13 list_svh_unit 0 22 <jVQKJd6XDSV>:`Ade[?c2
-R4
+R7
 r1
 !s85 0
 !i10b 1
 !s100 ]NoeCD6CE@<NPBW1eZWBX2
 I;CbMBFlz3T?865GZ[JzTL3
-R5
+R8
 S1
 R0
 w1761141685
-Z15 8top_fifo.sv
-R14
+Z18 8top_fifo.sv
+R17
 L0 1
-R7
+R10
 31
 !s108 1761141743.000000
-R9
-R10
+R12
+R13
 !i113 0
-R11
-R1
-vtop_fifo
-R2
+R14
 R3
-R4
+vtop_fifo
+R5
+R6
+R7
 r1
 !s85 0
 !i10b 1
-!s100 o;>Ch:]YTo9K@`mXX3AOY3
-I`99=9<?^XYD:5:Mab54Az1
-R5
+!s100 lFH2NH3SzbFK9zzKXBga_1
+IWLHF1?PRER>9m5<c`Gca>1
+R8
 S1
 R0
-R13
-R15
-R14
+R16
+R18
+R17
 L0 1
-R7
-31
-R8
-R9
 R10
-!i113 0
+31
 R11
-R1
+R12
+R13
+!i113 0
+R14
+R3

@@ -4,7 +4,8 @@
 
 class com_fifo;
   
-  static mailbox gen2bfm =new(); 
+  static mailbox wr_gen2bfm =new(); 
+  static mailbox rd_gen2bfm =new(); 
   
   static mailbox wr_mon2cov =new(); 
   static mailbox rd_mon2cov =new(); 

@@ -38,7 +38,7 @@ module top_fifo;
   initial begin
     $dumpfile("dump.vcd"); 
     $dumpvars;
-    #840;
+    #700;
     $display("############ SBD_S = %0d ############",com_fifo::SBD_S);
     $display("############ SBD_F = %0d ############",com_fifo::SBD_F);
     $finish;
